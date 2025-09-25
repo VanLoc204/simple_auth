@@ -1,49 +1,9 @@
-# Node.js dependencies
 node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-package-lock.json
-pnpm-lock.yaml
-
-# Environment variables
 .env
-.env.local
-.env.*.local
-
-# Logs
-logs
-*.log
-logs/*
-pids
-*.pid
-*.seed
-*.pid.lock
-
-# Coverage directory used by testing tools
-coverage/
-.nyc_output/
-
-# Build output
-dist/
-build/
-out/
-
-# VSCode settings
-.vscode/
-*.code-workspace
-
-# OS generated files
+.env.*
+npm-debug.log*
+yarn-error.log*
 .DS_Store
-Thumbs.db
-
-# Temporary files
-*.tmp
-*.swp
-
-# IDE specific
-.idea/
-*.iml
-
-# Public folder
-public/
+coverage/
+dist/
+tmp/
